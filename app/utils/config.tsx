@@ -59,10 +59,10 @@ const config: OrderlyConfig = {
   orderlyAppProvider: {
     appIcons: {
       main: {
-        img: "/orderly-logo.svg",
+        component: <img src="/logo.webp" alt="logo" style={{ height: "36px" }} />,
       },
       secondary: {
-        img: "/orderly-logo-secondary.svg",
+        img: "/logo-secondary.webp",
       },
     },
   },
